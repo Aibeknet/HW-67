@@ -8,7 +8,7 @@ const App: React.FC = () => {
   return (
     <Provider store={store}>
       <div className="App">
-        <h1 className="text-center my-5">Enter PIN</h1>
+        <h1 className="text-center my-5">Enter PIN-code</h1>
         <ScreenKeyboard />
       </div>
     </Provider>

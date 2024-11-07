@@ -31,7 +31,7 @@ const ScreenKeyboard: React.FC = () => {
     <button
       key={symbol}
       onClick={() => handleClick(symbol)}
-      className="btn btn-outline-success m-2 w-25 p-3 mb-2"
+      className="btn btn-outline-success m-2 w-25 p-2"
     >
       {symbol}
     </button>
