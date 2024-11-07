@@ -41,7 +41,7 @@ const simulatorSlice = createSlice({
 
 const store = configureStore({
   reducer: {
-    password: simulatorSlice.reducer,
+    simulator: simulatorSlice.reducer,
   },
 });
 
